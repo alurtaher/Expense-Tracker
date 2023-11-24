@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    background-color:transparent;
+    margin: 0;
+    padding: 0;
+  }
+  h2{
+    color: red;
+    background-color: aqua;
+    padding:0% 40% ;
+  }
+
+  #expense-form {
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+
+  #expenses-list {
+    margin: 10px 5px ;
+    display: flex;
+    justify-content: start;
+  }
+
+  .expense-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    cursor: pointer;
+    background-color: aqua;
+    color: red;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-left: 5px;
+  }
